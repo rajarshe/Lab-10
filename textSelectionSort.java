@@ -24,7 +24,7 @@ public class testSelectionSort{
 
       }
 
-      
+
       private void testMixed() {
 
             int[] arr = new int[5];
@@ -56,6 +56,13 @@ public class testSelectionSort{
            
 
             SelectionSort SelectionSort = new SelectionSort ();
+            System.out.print ("Sorted Mixed: ");
+            for (int i = 0; i < 5; i++)
+            {
+            System.out.print (Sortedarr[i]);
+            System.out.print ("  ");
+            }
+            System.out.print("\n");
 
       }
 
@@ -90,6 +97,13 @@ public class testSelectionSort{
            
 
             SelectionSort SelectionSort = new SelectionSort ();
+            System.out.print ("Sorted Duplicated: ");
+            for (int i = 0; i < 5; i++)
+            {
+            System.out.print (Sortedarr[i]);
+            System.out.print ("  ");
+            }
+            System.out.print("\n");
 
       }
 
